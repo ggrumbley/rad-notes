@@ -1,0 +1,1 @@
+export const notes = [{ id: 1, note: 'I am a note!'}];

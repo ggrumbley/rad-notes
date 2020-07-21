@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.hero {
+  @apply py-20 bg-purple-500;
+}
+
+.title {
+  @apply text-5xl text-center text-white;
+  line-height: 1.15;
+}
+
+.sidebar {
+  @apply flex-none w-full bg-green-500 text-white
+}
+
+.editor {
+  @apply flex-1 bg-blue-500 text-white
+}
+
+@tailwind utilities;
