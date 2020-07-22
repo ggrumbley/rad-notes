@@ -1,20 +1,13 @@
 import React from 'react';
 
-import Sidebar from '../components/Sidebar';
-import Editor from '../components/Editor';
+import App from '../components/App';
+import { StoreProvider } from '../hooks';
 
-const Home = () => {
-  return (
-    <div>
-      <div className="hero">
-        <h1 className="title">Rad Notes</h1>
-      </div>
-      <div className="min-h-screen md:flex">
-        <Sidebar />
-        <Editor />
-      </div>
-    </div>
-  );
-};
+const Home = () => (
+  <StoreProvider>
+    <App/>
+  </StoreProvider>
+);
+
 
 export default Home;
