@@ -1,12 +1,9 @@
 @tailwind base;
 @tailwind components;
 
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
-}
-
 .hero {
-  @apply py-20 bg-purple-500;
+  @apply py-5 bg-purple-500;
+  background: #261447;
 }
 
 .title {
@@ -15,11 +12,13 @@
 }
 
 .sidebar {
-  @apply flex-none w-full bg-green-500 text-white
+  @apply flex-none w-full text-white;
+  background: #0d0221;
 }
 
 .editor {
-  @apply flex-1 bg-blue-500 text-white
+  @apply flex-1 text-white;
+  background: #2de2e6;
 }
 
 @tailwind utilities;

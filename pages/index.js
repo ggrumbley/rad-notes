@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <div className="hero">
-        <h1 className="title">Next.js + Tailwind CSS</h1>
+        <h1 className="title">Rad Notes</h1>
       </div>
       <div className="min-h-screen md:flex">
         <Sidebar />
